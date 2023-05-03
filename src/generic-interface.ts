@@ -1,3 +1,54 @@
+// //Generic Interface
+
+// interface CrushInterface<T, U = null> {
+//     name: string;
+//     husband: T;
+//     wife?: U;
+
+// }
+
+
+// interface PersonInterface { name: string, age: number }
+
+// const crush4: CrushInterface<PersonInterface, PersonInterface> = {
+//     name: 'kate',
+//     husband: {
+//         name: 'Persian',
+//         age: 30,
+//     },
+//     wife: {
+//         name: 'winki',
+//         age: 40,
+//     }
+// }
+
+// const crush1: CrushInterface<boolean, string> = {
+//     name: "kate Winslet",
+//     husband: true,
+//     wife: 'chokina',
+// };
+// const crush2: CrushInterface<string, null> = {
+//     name: "kate Winslet",
+//     husband: 'persian'
+// };
+
+// interface HusbandInterface {
+//     name: string;
+//     salary: number;
+// }
+
+// const crush3: CrushInterface<HusbandInterface> = {
+//     name: "kate Winslet",
+//     husband: {
+//         name: 'Persian',
+//         salary: 0.01
+//     }
+// };
+
+
+
+
+
 // type GenericTuple<X, Y> = [X, Y]
 // const relation: GenericTuple<string, string> = ['Persian', 'kate wing']
 
