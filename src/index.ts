@@ -1,3 +1,3 @@
-const course: string = 'next level'
+// const course: string = 'next level'
 
-console.log(course);
+// console.log(course);
