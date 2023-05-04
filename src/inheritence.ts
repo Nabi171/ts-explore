@@ -1,4 +1,4 @@
-class Student {
+class Parent {
     name: string;
     age: number;
     address: string;
@@ -14,23 +14,30 @@ class Student {
     }
 }
 
-class Teacher {
-    name: string;
-    age: number;
-    address: string;
+
+class Student extends Parent {
+    constructor(name: string, age: number, address: string) {
+        super(name, age, address)
+
+    }
+}
+
+
+const student1 = new Student('Mr. X', 15, 'Uganda');
+
+
+class Teacher extends Parent {
     designation: string;
 
-
     constructor(name: string, age: number, address: string, designation: string) {
-        this.name = name;
-        this.age = age;
-        this.address = address;
+        super(name, age, address)
         this.designation = designation;
     }
-    makeSleep(hours: number): string {
-        return `This ${this.name} will sleep for ${hours}`
-    }
+
     takeClasses(numOfClass: number): string {
+
         return `This ${this.name} will take ${class} class`
     }
 }
+
+const teacher1 = new Teacher('Mr. y', 54, 'Usa', 'Professor');
