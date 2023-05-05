@@ -1,43 +1,43 @@
-class Parent {
-    name: string;
-    age: number;
-    address: string;
+// class Parent {
+//     name: string;
+//     age: number;
+//     address: string;
 
-    constructor(name: string, age: number, adress: string) {
-        this.name = name;
-        this.age = age;
-        this.address = adress;
-    }
+//     constructor(name: string, age: number, adress: string) {
+//         this.name = name;
+//         this.age = age;
+//         this.address = adress;
+//     }
 
-    makeSleep(hours: number): string {
-        return `This ${this.name} will sleep for ${hours}`
-    }
-}
-
-
-class Student extends Parent {
-    constructor(name: string, age: number, address: string) {
-        super(name, age, address)
-
-    }
-}
+//     makeSleep(hours: number): string {
+//         return `This ${this.name} will sleep for ${hours}`
+//     }
+// }
 
 
-const student1 = new Student('Mr. X', 15, 'Uganda');
+// class Student extends Parent {
+//     constructor(name: string, age: number, address: string) {
+//         super(name, age, address)
+
+//     }
+// }
 
 
-class Teacher extends Parent {
-    designation: string;
+// const student1 = new Student('Mr. X', 15, 'Uganda');
 
-    constructor(name: string, age: number, address: string, designation: string) {
-        super(name, age, address)
-        this.designation = designation;
-    }
 
-    takeClasses(numOfClass: number): string {
+// class Teacher extends Parent {
+//     designation: string;
 
-        return `This ${this.name} will take ${class} class`
-    }
-}
+//     constructor(name: string, age: number, address: string, designation: string) {
+//         super(name, age, address)
+//         this.designation = designation;
+//     }
 
-const teacher1 = new Teacher('Mr. y', 54, 'Usa', 'Professor');
+//     takeClasses(numOfClass: number): string {
+
+//         return `This ${this.name} will take ${class} class`
+//     }
+// }
+
+// const teacher1 = new Teacher('Mr. y', 54, 'Usa', 'Professor');
