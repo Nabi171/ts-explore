@@ -24,11 +24,11 @@ person.name = "Forhan";
 
 //Record Type
 
-type myObj = {
-    a: string;
-    b: string;
-    c: string;
-};
+// type myObj = {
+//     a: string;
+//     b: string;
+//     c: string;
+// };
 
 //using index signature
 type myObj = {
