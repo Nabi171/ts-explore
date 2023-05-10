@@ -34,3 +34,9 @@ person.name = "Forhan";
 type myObj = {
     [key: string]: string
 }
+
+const obj: myObj = {
+    a: "1",
+    b: "2",
+    c: "3"
+}
